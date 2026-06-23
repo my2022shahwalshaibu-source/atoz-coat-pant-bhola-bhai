@@ -1,0 +1,262 @@
+/* =======================================
+SHEBU RESPONSIVE STYLES - DEVICES RESOLUTION
+========================================== */
+
+/* good method for responsive shahwal (shaibu)
+@media all and (max-width: 991px) {}
+@media all and (max-width: 569px) {}
+*/
+@media only screen and (min-width: 576px) and (max-width: 767px){
+/* .hide575 {display:none;} */
+}
+
+@media only screen and (min-width: 280px) and (max-width:575px){
+#bnr h1 {font-size:11vmin; font-weight: 700;}
+#bnr p {font-size:5vmin;}
+	
+.inside-banner img{width: 100%;max-width: 100%;	height:30vh;display: block}
+
+.fsocil2 h4 {font-size:18px;margin:0 0 16px 0; text-align:center}
+.lining {margin:-8px 0 8px 0; text-align:center}
+.ftlogo {margin:auto; text-align:center; margin:25px 0 15px;}
+.ftlogo a {background-color:transparent !important; width:auto !important; height:auto !important}
+
+.right-align {text-align:center;}
+.fsocil2 {display:block; text-align:center}
+.fsocil2 a {width:40px; line-height:40px; text-align:center;margin:0 3px 6px 0;}
+
+.copyright {width:100%; height:auto; float:left; font-size:14px; text-align:center; color:#FFF;}
+.copyright ul {list-style:none; margin:30px 0 14px 0; padding:0; text-align:center;line-height:1; }
+.copyright ul li:last-child {border-right:none;}
+.copyright ul li:last-child a {padding:0px 0 0 14px;}
+.copyright ul li {display:inline-block; border-right:solid 1px #FFF; margin:3px 0;}
+.copyright ul li a {display:inline-block; color:#FFF; text-decoration:none;  padding:0px 14px;}
+.copyright ul li a:hover {color:#ffc07c;}
+
+/*Contact*/
+#contacting {padding:40px 0px; margin:30px 0; border-top:2px solid #51ab4a;}
+#contacting .ads {width:100%; height:auto; float:left; border-right:none;}
+#contacting .map {width:100%; height:350px !important; float:left;}
+.contact-block {margin:0 0 25px 0;}
+.contact-block .icon {float:left; display:block; margin:0 0px 10px 0; width:100%; height:auto;}
+
+}
+
+
+
+@media only screen and (min-width: 280px) and (max-width: 1000px){
+/*Navigation*/
+header {position:fixed;
+	top:0;
+	left:0;
+	width:100%;
+	height:auto;
+	float:left;
+	padding:0 0 20px 0;
+	z-index:222222222222222222;
+	background-image: linear-gradient(to bottom, #c50000 , #6e0101);
+	box-shadow:0px 5px 5px rgba(0,0,0,0.26) !important;
+
+}
+.fixed-header { position: fixed; top:0; left:0; width: 100%; height:auto; float:left;   padding:0 0 20px 0;
+background-image: linear-gradient(to bottom, #c50000 , #6e0101);
+}
+.tp1 {width: 100%; height: auto; float: left; padding:22px 0 10px 0;}
+nav {
+  width:100%;
+  height:auto;
+  float:left;
+  background:;
+  z-index:10;
+  margin:0px 0 0 0;
+}
+.shrink {width: 100%; height:auto; float:left;}
+.menuicon {font-size:30px;cursor:pointer; color:#000;}
+.shrink .tp1 {width: 100%; height: auto; float: left; padding:22px 0 10px 0;}
+.shrink .menuicon {color:#000;}
+.shrink .social a i {color:#000; background:#cacaca;}
+.shrink .topa {background-color:#171717; color:#FFF;}
+.shrink .menuzord-menu > li > a{
+	padding:10px 15px !important;
+	margin:0px 0px;
+	font-size:14px;
+	line-height:14px;
+}
+.shrink .logo img {margin:-1px 0 6px 0;}
+
+.logo img {margin:-8px 0 6px 0 !important; position:absolute; top:-10px; left:0;z-index: 999999;}
+.topa {background-color:#171717; color:#FFF;}
+.topa a {color:#FFF; text-decoration:none; font-size:15px; line-height:15px;}
+.topa span {line-height:13px; font-size:13px; margin:-6px 4px -3px 0;}
+
+#bnr {width:100%; height:auto; float:left; margin:58px 0 0 0;}
+.inside-banner{position: relative;width: 100%; margin:58px 0 0 0;}
+
+/*decorate*/
+#decorate{padding:50px 0;}
+.led-pic-side {transform:translate(0%,0%);}
+.led-pic-side img {width:100%; height:auto;}
+.center-hv {margin:0; position:static; top:50%; left:40%; transform:translate(0%, 0%);}
+.textbox-overlay {padding:30px 10px 30px 15px; background-color:#fefefe;}
+.textbox-overlay h3 {font-size:34px; line-height:38px; margin:0 0 14px 0;}
+.textbox-overlay p {font-size:13px; line-height:24px;}
+
+
+/*discover*/
+#discover {padding:50px 0;}
+#discover h3 {font-size:34px; line-height:38px; margin:0 0 25px 0;}
+.feature {padding:20px 0px;}
+
+
+/*Footer*/
+footer {width:100%; height:auto; float:left; padding:50px 0 20px 0; background-color:#1b736d;}
+
+}
+
+
+@media only screen and (min-width: 280px) and (max-width: 1365px){
+.container1366px {width:100% !important; height:auto; margin:0 auto;}
+ 
+}
+
+@media only screen and (min-width: 1367px) and (max-width: 25000px){
+.container1366px {width:1320px !important; height:auto; margin:0 auto;}
+ 
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 2000px){
+.owl-carousel .owl-next {right:-20px !important; background-image: url(../images/right.png);}
+
+}
+@media only screen and (min-width: 280px) and (max-width: 767px){
+.owl-carousel .owl-next {right:-25px !important; background-image: url(../images/right-do.png);}
+
+}
+
+
+
+
+@media only screen and (min-width: 150px) and (max-width:399px){
+/*about us*/
+.aboutus {padding-top: 30px; padding-bottom: 30px;}
+.aboutus {width:100%;}
+.aboutus p img {width:100%; height:auto;}
+.aboutus p {
+	font-size: 13px;
+	line-height:20px;
+	margin-bottom: 15px;
+}
+.ourteam {padding:40px 0;}
+.ourteam {width:100%;}
+.ourteam ul li {width:100%; height:auto; float:left; position:relative;}
+.head-b {
+	font-size: 25px;
+	line-height: 25px;
+	background-image: url(../images/border-hd2.jpg);
+	margin-bottom: 20px;
+	margin-top:20px;
+	padding-bottom: 22px;
+}
+.ourteam ul li p {
+	font-size: 15px;
+	line-height:22px;
+	margin-bottom: 10px;
+}
+
+.ourtarget {}
+.ourtarget ul li {width:100%;}
+.ourtarget ul li .vision {
+	width:90%;
+	padding-top: 25px;
+	padding-right: 5px;
+	padding-bottom: 25px;
+	padding-left: 25px;
+	top:10%;
+}
+.vision h5 {font-size: 30px;line-height: 30px;margin-bottom: 20px;}
+.vision p {font-size: 16px;line-height: 22px;}
+.ourtarget ul li .mission {width:100%;margin-top:10px;}
+.mission h5 {font-size: 30px;line-height: 30px;}
+.mission p {font-size: 16px;line-height: 22px;}
+}
+
+@media only screen and (min-width: 400px) and (max-width:700px){
+/*about us*/
+.aboutus {padding-top: 30px; padding-bottom: 30px;}
+.aboutus {width:100%;}
+.aboutus p img {width:100%; height:auto;}
+.aboutus p {
+	font-size: 13px;
+	line-height:20px;
+	margin-bottom: 15px;
+}
+.ourteam {padding:40px 0;}
+.ourteam {width:100%;}
+.ourteam ul li {width:100%; height:auto; float:left; position:relative;}
+.head-b {
+	font-size: 25px;
+	line-height: 25px;
+	background-image: url(../images/border-hd2.jpg);
+	margin-bottom: 20px;
+	margin-top:20px;
+	padding-bottom: 22px;
+}
+.ourteam ul li p {
+	font-size: 15px;
+	line-height:22px;
+	margin-bottom: 10px;
+}
+
+.ourtarget {}
+.ourtarget ul li {width:100%;}
+.ourtarget ul li .vision {
+	width: 90%;
+	padding-top: 25px;
+	padding-right: 5px;
+	padding-bottom: 25px;
+	padding-left: 25px;
+	top:10%;
+}
+.vision h5 {font-size: 30px;line-height: 30px;margin-bottom: 20px;}
+.vision p {font-size: 16px;line-height: 22px;}
+.ourtarget ul li .mission {width:100%;margin-top:10px;}
+.mission h5 {font-size: 30px;line-height: 30px;}
+.mission p {font-size: 16px;line-height: 22px;}
+}
+
+@media only screen and (min-width: 701px) and (max-width:1099px){
+/*about us*/
+.aboutus {width:100%;}
+.aboutus p img {width:auto; height:280px;}
+.aboutus p {
+	font-size: 14px;
+	margin-bottom: 15px;
+}
+.ourteam {padding:40px 0;}
+.ourteam {width:100%;}
+
+.head-b {
+	font-size: 25px;
+	line-height: 25px;
+	background-image: url(../images/border-hd2.jpg);
+	margin-bottom: 20px;
+	padding-bottom: 22px;
+}
+.ourteam ul li p {
+	font-size: 15px;
+	line-height:22px;
+	margin-bottom: 10px;
+}
+.ourtarget ul li .vision {
+	padding-top: 25px;
+	padding-right: 5px;
+	padding-bottom: 25px;
+	padding-left: 25px;
+	top:10%;
+}
+.vision h5 {font-size: 30px;line-height: 30px;margin-bottom: 20px;}
+.vision p {font-size: 16px;line-height: 22px;}
+.ourtarget ul li .mission {margin-top:10px;}
+.mission p {font-size: 16px;line-height: 22px;}	
+}

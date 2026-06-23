@@ -1,0 +1,24 @@
+/*------------------------------------------------------------------
+[Master Stylesheet]
+Project:  LEADERS
+-------------------------------------------------------------------*/
+
+
+/* FONTS*/
+/* FONTS*/
+@import 'https://use.fontawesome.com/releases/v5.7.0/css/all.css';	/* Font-awesome */
+/*@import 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css';
+@import 'https://fonts.googleapis.com/css?family=Arsenal:400,400i,700,700i';	/* Arsenal */
+@import 'https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i';	/* Roboto+Condensed */
+/* PLUGIN CSS */
+
+
+@import '../css/bootstrap.min.css';                /* menuzord */
+@import '../css/style.css';                /* menuzord */
+@import '../js/owl.carousel.min.css';                /* menuzord */
+@import '../js/owl.theme.default.min.css';                /* menuzord */
+@import '../css/responsive.css';                /* menuzord */
+@import '../js/menuzord.css';                /* menuzord */
+@import '../js/animations.css';                /* animations */
+
+/* MAIN CSS */
