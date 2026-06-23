@@ -9,6 +9,8 @@ body {overflow-x:hidden}
 .bhola-bhai {width: 100%; height: auto; float: left;}
 .bhola-bhai img {width: 100%; height: auto;}
 .bhola-bhai iframe {width: 100vw; height:vh;}
+.call-button {color:#fff; text-decoration:none; font-size:20px}
+.call-button:hover {color:red; text-decoration:none;}
 
 img {border:none;}
 .imgfull {width:100%; height:auto;}
@@ -434,7 +436,7 @@ filter: none;transition: ease 1s}
 .prds-led2:hover .discription2 p {color:#FFF;}
 .prds-led2:hover .discription2 .more2 a {color:#FFF; border:1px solid #FFF;}
 
-#bggreen {width:100%; height:auto; float:left; text-align:center; padding:9px 0; background-color:#1c736d; color:#FFF; text-transform:uppercase;}
+#bggreen {width:100%; height:auto; float:left; text-align:center; padding:9px 0; background-color:#1c736d; color:#FFF;}
 
 
 /*Contact us*/
